@@ -52,7 +52,7 @@ const router = createBrowserRouter([
       {
         path: "/countrycardpage/:id",
         element: <CountryspotCard></CountryspotCard>,
-        
+        loader: ({params})=> fetch(`https://tourism-server-site.vercel.app/countries/${params.id}`),
         errorElement: <ErrorElement></ErrorElement>,
       },
       {
