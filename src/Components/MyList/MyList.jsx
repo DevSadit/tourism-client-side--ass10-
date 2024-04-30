@@ -14,6 +14,7 @@ const MyList = () => {
       });
   }, [user]);
 
+  console.log(tourSpots);
   return (
     <div>
       <h1 className="text-center">My List</h1>

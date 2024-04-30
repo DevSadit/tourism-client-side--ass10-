@@ -66,7 +66,6 @@ const UpdateCard = () => {
             text: "Tour Spot Added Successfully!",
           });
         }
-        this.myFormRef.reset();
       });
   };
 //   
@@ -179,7 +178,7 @@ const UpdateCard = () => {
               </label>
               <input
                 name="averagecost"
-                type="text"
+                type="number"
                 defaultValue={averagecost}
                 className="w-full rounded-md focus:ring focus:ring-opacity-75 text-gray-900 dark:text-gray-50 focus:ring-violet-400 focus:dark:ring-violet-600 border-gray-700 dark:border-gray-300"
               />

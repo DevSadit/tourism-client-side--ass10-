@@ -10,6 +10,7 @@ import AllTouristSpot from "../src/Components/AlltouristSpot/AllTouristSpot";
 import ViewDetailsCard from "../src/Components/ViewDetailsCard/ViewDetailsCard";
 import PrivateRoute from "./PrivateRoute";
 import MyList from "../src/Components/MyList/MyList";
+import CountryspotCard from "../src/Components/Countries/CountryspotCard";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,12 @@ const router = createBrowserRouter([
             <AddTourist></AddTourist>
           </PrivateRoute>
         ),
+        errorElement: <ErrorElement></ErrorElement>,
+      },
+      {
+        path: "/countrycardpage/:id",
+        element: <CountryspotCard></CountryspotCard>,
+        
         errorElement: <ErrorElement></ErrorElement>,
       },
       {
