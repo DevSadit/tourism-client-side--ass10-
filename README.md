@@ -16,13 +16,13 @@ Make sure you have Node.js and npm installed on your machine. You can download N
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/DevSadit/blog-client-side-ass-11.git
+    git clone https://github.com/DevSadit/tourism-client-side--ass10-.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd blog-client-side-ass-11
+  cd tourism-client-side--ass10-
     ```
 
 3. **Install dependencies:**
